@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="GelpPrintingUI.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:GelpPrintingUI"
+    xmlns:pages="clr-namespace:GelpPrintingUI.Pages"
+    Title="Gelp Print"
+    Shell.FlyoutBehavior="Locked"
+    Shell.FlyoutBackgroundColor="Wheat"
+    Shell.FlyoutWidth="75"
+    >
+
+    <ShellContent
+        Title=""
+        ContentTemplate="{DataTemplate pages:MainPage}"
+        Icon="home.png"
+        Route="MainPage" />
+
+    <ShellContent
+     Title=""
+     ContentTemplate="{DataTemplate pages:Print}"
+     Icon=""
+     Route="Print" />
+
+    <ShellContent
+     Title=""
+     ContentTemplate="{DataTemplate pages:Products}"
+     Icon=""
+     Route="Products" />
+
+    <ShellContent
+     Title=""
+     ContentTemplate="{DataTemplate pages:Companies}"
+     Icon=""
+     Route="Companies" />
+
+</Shell>
