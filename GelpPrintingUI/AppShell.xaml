@@ -8,7 +8,7 @@
     Title="Gelp Print"
     Shell.FlyoutBehavior="Locked"
     Shell.FlyoutBackgroundColor="Wheat"
-    Shell.FlyoutWidth="75"
+    Shell.FlyoutWidth="60"
     >
 
     <ShellContent
@@ -20,19 +20,19 @@
     <ShellContent
      Title=""
      ContentTemplate="{DataTemplate pages:Print}"
-     Icon=""
+     Icon="print.png" 
      Route="Print" />
 
     <ShellContent
      Title=""
      ContentTemplate="{DataTemplate pages:Products}"
-     Icon=""
+     Icon="product.png"
      Route="Products" />
 
     <ShellContent
      Title=""
      ContentTemplate="{DataTemplate pages:Companies}"
-     Icon=""
+     Icon="company.png"
      Route="Companies" />
 
 </Shell>
